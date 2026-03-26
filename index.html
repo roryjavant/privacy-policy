@@ -20,6 +20,7 @@ body {
 
 h1 { margin: 0 0 8px; }
 h2 { margin-top: 28px; }
+h3 { margin-top: 20px; }
 
 .muted { color: #555; }
 
@@ -42,16 +43,17 @@ ul { padding-left: 18px; }
 <p class="muted">
 <strong>App:</strong> RantDrop<br>
 <strong>Developer:</strong> Rory Avant<br>
-<strong>Effective date:</strong> February 27, 2026
+<strong>Effective date:</strong> March 26, 2026
 </p>
 
 <div class="box">
 <p><strong>Quick summary</strong></p>
 
 <ul>
-<li>RantDrop lets you record videos and generate AI music and transcripts.</li>
-<li>Content you create in the app is stored locally on your device.</li>
-<li>When you use AI features, necessary audio or text may be sent to third-party AI providers to generate songs or transcripts.</li>
+<li>RantDrop lets you record videos, generate AI-assisted songs, and create captions/transcripts.</li>
+<li>Content you create in the app is primarily stored locally on your device.</li>
+<li>When you choose to use AI features, certain content may be sent to third-party AI providers, including <strong>OpenAI</strong>, <strong>ElevenLabs</strong>, and <strong>DeepSeek AI</strong>, to perform the feature you requested.</li>
+<li>RantDrop asks for your permission before sending your content to third-party AI providers.</li>
 <li>We do <strong>not</strong> sell your personal information.</li>
 </ul>
 </div>
@@ -60,7 +62,7 @@ ul { padding-left: 18px; }
 
 <p>
 RantDrop is developed and operated by <strong>Rory Avant</strong> (“we,” “us,” or “our”).
-This Privacy Policy explains how information is handled when you use the RantDrop mobile application (the “App”).
+This Privacy Policy explains how information is collected, used, and shared when you use the RantDrop mobile application (the “App”).
 </p>
 
 <h2>Information we collect</h2>
@@ -69,50 +71,56 @@ This Privacy Policy explains how information is handled when you use the RantDro
 
 <p>
 RantDrop supports <strong>Sign in with Apple</strong> for authentication.
-When you sign in, we receive a unique identifier associated with your Apple account.
-If you choose Apple's “Hide My Email” option, we may receive a private relay email address.
+When you sign in, we may receive a unique identifier associated with your Apple account.
+If you choose Apple’s “Hide My Email” option, we may also receive a private relay email address.
 </p>
 
 <h3>2) User content you create</h3>
 
 <p>
-To provide the core features of the App, you may create content including:
+To provide the core features of the App, you may create or store content including:
 </p>
 
 <ul>
 <li>Rant videos</li>
 <li>Reaction videos</li>
+<li>Recorded audio</li>
 <li>AI-generated songs</li>
-<li>Transcripts generated from audio</li>
+<li>Transcripts and captions generated from audio</li>
+<li>Prompt content or text derived from your rant for song generation or captioning</li>
+<li>Song metadata generated from your content, such as title, genre, mood, tags, and hook text</li>
 </ul>
 
 <p>
-This content is stored locally on your device unless it is temporarily sent to a third-party service to perform an AI feature you request.
+This content is primarily stored locally on your device unless it is sent to a third-party service to perform a feature you request.
 </p>
 
 <h3>3) Purchases and token usage</h3>
 
 <p>
-If you purchase tokens or other in-app purchases, Apple processes payment information.
-We may receive limited purchase information such as product identifiers and transaction status to confirm and deliver purchases.
+If you purchase tokens or other in-app purchases, Apple processes your payment information.
+We may receive limited purchase-related information such as product identifiers, transaction status, and receipt-related information needed to confirm and deliver your purchase.
 </p>
 
 <h3>4) Device and app information</h3>
 
 <p>
-We may collect limited technical information necessary for the operation of the App, such as:
+We may collect limited technical information necessary to operate the App, such as:
 </p>
 
 <ul>
 <li>App version</li>
 <li>Device type</li>
-<li>Basic diagnostic logs used to improve reliability and performance</li>
+<li>Basic diagnostic or crash information</li>
+<li>Technical logs used to improve reliability, performance, and security</li>
 </ul>
 
-<h2>Permissions (Camera and Microphone)</h2>
+<h2>Permissions</h2>
+
+<h3>Camera and Microphone</h3>
 
 <p>
-RantDrop requires access to your device’s <strong>camera</strong> and <strong>microphone</strong> so you can record rant and reaction videos.
+RantDrop requires access to your device’s <strong>camera</strong> and <strong>microphone</strong> so you can record rant and reaction videos and create audio-based content.
 </p>
 
 <p>
@@ -121,87 +129,139 @@ You can manage these permissions in your device settings at any time. If permiss
 
 <h2>How we use information</h2>
 
-<p>We use information only to operate the App and provide requested features, including:</p>
+<p>We use information only to operate the App and provide requested features, including to:</p>
 
 <ul>
-<li>Recording and playing back videos you create</li>
-<li>Generating AI songs and transcripts when requested</li>
-<li>Processing token usage and delivering in-app purchases</li>
-<li>Maintaining security and preventing abuse</li>
-<li>Improving reliability and performance of the App</li>
+<li>Record, save, and play back videos and audio you create</li>
+<li>Generate AI-assisted songs, transcripts, captions, and song metadata when requested by you</li>
+<li>Process token usage and deliver in-app purchases</li>
+<li>Maintain security and prevent abuse</li>
+<li>Debug issues and improve reliability and performance</li>
 </ul>
 
 <h2>How we share information</h2>
 
 <p>
 We do <strong>not</strong> sell your personal information.
-Information is shared only when necessary to provide features you request.
+We share information only when necessary to provide features you request, operate the App, comply with law, or protect users and the App.
 </p>
 
-<h3>Service providers</h3>
-
-<ul>
-<li>
-<strong>AI processing providers</strong> — used to generate features requested by the user, such as:
-<ul>
-<li><strong>ElevenLabs</strong> for AI music generation</li>
-<li><strong>Speech-to-text providers</strong> such as Whisper for transcription</li>
-</ul>
-</li>
-
-<li>
-<strong>Apple</strong> — provides platform services including Sign in with Apple and in-app purchases.
-</li>
-</ul>
-
-<h3>Legal requirements</h3>
+<h3>1) AI processing providers</h3>
 
 <p>
-We may disclose information if required by law or to protect the safety, rights, or security of users and the App.
+When you choose to use AI-powered features, RantDrop may send certain content to third-party AI providers to perform the feature you requested.
+This may include:
+</p>
+
+<ul>
+<li>Recorded audio or rant content</li>
+<li>Transcript text and captions</li>
+<li>Prompt content derived from your rant</li>
+<li>Lyrics or text used for music/song generation</li>
+<li>Text used to generate song metadata, such as titles, moods, genres, tags, or hooks</li>
+</ul>
+
+<p>
+Current AI providers may include:
+</p>
+
+<ul>
+<li><strong>OpenAI</strong> — for audio transcription, captions, and related AI text/audio processing</li>
+<li><strong>ElevenLabs</strong> — for music and song generation based on lyrics or related user-provided content</li>
+<li><strong>DeepSeek AI</strong> — for song metadata generation, such as title, genre, mood, tags, and hook text</li>
+</ul>
+
+<p>
+We ask for your permission before sending this content to third-party AI providers, including OpenAI, ElevenLabs, and DeepSeek AI.
+If you do not grant permission, the related AI feature will not run.
+</p>
+
+<h3>2) Platform and payment providers</h3>
+
+<ul>
+<li><strong>Apple</strong> — for Sign in with Apple, App Store distribution, and in-app purchases</li>
+</ul>
+
+<h3>3) Service and infrastructure providers</h3>
+
+<p>
+We may use service providers or infrastructure tools necessary to operate app functionality, storage, networking, debugging, and delivery of the services you request.
+</p>
+
+<h3>4) Legal requirements</h3>
+
+<p>
+We may disclose information if required by law, legal process, or governmental request, or if we believe disclosure is necessary to protect the safety, rights, or security of users, the App, or others.
+</p>
+
+<h2>AI feature disclosures</h2>
+
+<p>
+RantDrop includes AI-powered features such as song generation, transcription, caption creation, and song metadata generation.
+These features may require sending your content to third-party AI providers.
+</p>
+
+<p>
+Before your content is sent for AI processing, the App presents an in-app disclosure explaining:
+</p>
+
+<ul>
+<li>what data may be sent,</li>
+<li>which third-party provider may receive it, and</li>
+<li>that the data is being sent to provide the feature you requested.</li>
+</ul>
+
+<p>
+You may decline this permission. If you do, the related AI feature will not be available unless you later choose to consent.
 </p>
 
 <h2>Data retention</h2>
 
 <p>
-Content created within RantDrop is stored locally on your device and remains there until you delete it or remove the App.
+Content created within RantDrop is primarily stored locally on your device and remains there until you delete it or remove the App.
 </p>
 
 <p>
-If content is temporarily sent to third-party providers to generate AI features you request, those providers may process the data according to their own privacy policies.
+If content is sent to third-party providers to perform AI features you request, those providers may process and retain data according to their own terms and privacy policies.
+We do not control the independent data-handling practices of third-party providers.
 </p>
 
 <h2>Security</h2>
 
 <p>
-We take reasonable measures designed to protect your information.
-However, no system can guarantee absolute security.
+We take reasonable administrative, technical, and organizational measures designed to protect your information.
+However, no method of storage or transmission is completely secure, and we cannot guarantee absolute security.
 </p>
 
 <h2>Children’s privacy</h2>
 
 <p>
-RantDrop is not intended for children under 13 (or the age required by local law).
+RantDrop is not intended for children under 13, or under the age required by local law.
 We do not knowingly collect personal information from children.
+If you believe a child has provided personal information, please contact us.
 </p>
 
 <h2>Your choices</h2>
 
 <ul>
-<li><strong>Permissions:</strong> Camera and microphone permissions can be controlled in device settings.</li>
+<li><strong>Permissions:</strong> Camera and microphone access can be controlled in device settings.</li>
 <li><strong>Local content:</strong> You can delete content directly from your device or by removing the App.</li>
+<li><strong>AI consent:</strong> You can decline or later revoke consent for AI processing in the App’s settings, which may disable certain AI-powered features.</li>
 </ul>
 
 <h2>International users</h2>
 
 <p>
-If you use the App outside the United States, information may be processed in countries where our service providers operate.
+If you use the App outside the United States, your information may be processed in countries where our service providers operate.
+Those countries may have different data protection laws than your jurisdiction.
 </p>
 
 <h2>Changes to this Privacy Policy</h2>
 
 <p>
 We may update this Privacy Policy from time to time.
-If material changes occur, we will update the effective date above.
+If we make material changes, we will update the effective date above.
+Your continued use of the App after an update means the revised Privacy Policy will apply going forward.
 </p>
 
 <h2>Contact</h2>
